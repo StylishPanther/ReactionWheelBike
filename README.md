@@ -38,6 +38,9 @@ Reaction Wheel Bike는 Reaction Wheel의 회전 관성을 이용해 로봇 스�
 <p align="center"><img src="./Images/RemoteControlMovement.gif" width="360px"></p>  
 <p align="center"> < 원격 조종을 이용한 주행 테스트></p>
 
+<p align="center"><img src="./Images/StraightDriving.gif" width="360px"></p>  
+<p align="center"> < 자율  주행 테스트></p>
+ 
 <p align="center"><img src="./Images/CurvedWayDriving.gif" width="360px"></p>  
 <p align="center"> < 자율 곡선 주행 테스트></p>
 
@@ -69,7 +72,7 @@ Reaction Wheel Bike는 Reaction Wheel의 회전 관성을 이용해 로봇 스�
  
 
  ### 소스코드 
-<!-->
+<!--
 크게 라이브러리를 이용한 펌웨어 설정 부분과 슬레이브 기능 구현을 위한 어플리케이션 부분으로 나뉘며 
 Build.bat을 이용해 makefile을 동작시키는 방식으로 .hex파일을 생성했다.
 
@@ -113,3 +116,4 @@ ADC를 이용해 센서 값을 받기 위한 함수들로 구성되어있다.
  `variable.h` : 전역 변수로 설정된 변수들을 모아 놓은 헤더. 
 
  `struct.h` : 전역 변수로 설정된 구조체 변수들을 모아 놓은 헤더.
+-->
